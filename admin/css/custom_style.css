@@ -1,0 +1,453 @@
+.ie_message {
+
+	color: #28bf28;
+
+}
+
+
+
+.jsp_space_locator {
+
+	background: red;
+
+}
+
+textarea {
+
+	width: 30%;
+
+	margin: 10px;
+
+	padding: 10px;
+
+}
+
+fieldset {
+
+	border:1px solid #c3c3c3 !important;
+
+	padding: 20px;
+
+	background: #ffffff;
+
+	width: 45%;
+
+	margin-bottom: 20px;
+
+}
+
+fieldset legend {
+
+    padding: 8px 15px;;
+
+    font-weight: bold;
+
+    font-size: 16px;
+
+
+
+}
+
+fieldset input,
+
+fieldset select,
+
+fieldset textarea {
+
+	width: 100% !important;
+
+	margin-bottom: 20px !important;
+
+	border-radius: 5px;
+
+	margin: 0;
+
+}
+
+fieldset input[type="radio"] {
+
+	height: 16px !important;
+
+	width: 16px !important;
+
+}
+
+fieldset input,
+
+fieldset select {	
+
+	height: 40px !important;
+
+}
+
+.col-2,
+
+.col-3 {
+
+	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+
+	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+
+	display: -ms-flexbox;      /* TWEENER - IE 10 */
+
+	display: -webkit-flex;     /* NEW - Chrome */
+
+	display:flex;
+
+	justify-content: space-around;
+
+	width: 80%;
+
+}
+
+.col-3 fieldset {
+
+	width: 29%;
+
+}
+
+.col-input-2 {
+
+	width: 48% !important;
+
+    float: left;
+
+    margin: 0 3px;
+
+}
+
+#pointer_icon {
+
+	width: 80% !important;
+
+    vertical-align: top;
+
+    float: left;
+
+}
+
+.pointer-image {
+
+	display: inline-block;
+
+    border: 1px dotted;
+
+    float: right;
+
+    height: 100px;
+
+    width: 100px;
+
+    position: relative;
+
+    overflow: hidden;
+
+}
+
+.pointer-image img {
+
+	width: 30px;
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+
+}
+
+.disply-flex {
+
+	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+
+	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+
+	display: -ms-flexbox;      /* TWEENER - IE 10 */
+
+	display: -webkit-flex;     /* NEW - Chrome */
+
+	display:flex;
+
+}
+
+#add_custom_field {
+
+	height: 40px;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    background: #dadada;
+
+    box-shadow: none;
+
+}
+
+#custom_field_table {
+
+    border: 1px solid #dadada;
+
+    text-align: left;
+
+    border-collapse: collapse;
+
+    background: #fff;
+
+    margin-top: 20px;
+
+}
+
+#custom_field_table th,
+
+#custom_field_table td,
+
+.search-store-table th,
+
+.search-store-table td {
+
+	border: none;
+
+	padding: 10px;
+
+    border-bottom: 1px solid #dadada;
+
+}
+
+#custom_field_table th {
+
+	background: #dadada;
+
+}
+
+legend.legend {
+
+	border-top: 1px solid #c3c3c3;
+
+    background: #fff;
+
+    position: relative;
+
+}
+
+legend.legend:before{
+
+	content: '';
+
+	width: 1px;
+
+    height: 18px;
+
+    position: absolute;
+
+    background: #c3c3c3;
+
+    top: 0;
+
+    left: 0;
+
+    z-index: 1;
+
+}
+
+legend.legend:after{
+
+	content: '';
+
+	width: 1px;
+
+    height: 18px;
+
+    position: absolute;
+
+    background: #c3c3c3;
+
+    top: 0;
+
+    right: 0;
+
+}
+
+fieldset label {
+
+	font-weight: bold;
+
+	vertical-align: text-bottom;
+
+    font-size: 16px;
+
+}
+
+.input-option {
+
+	display: inline-block;
+
+}
+
+.input-option input {
+
+	vertical-align: top;
+
+    margin: 0 0 0 20px;
+
+}
+
+.pointer-container {
+
+	background: #fff;
+
+    padding: 20px;
+
+    position: relative;
+
+    display: inline-block;
+
+    width: 90%;
+
+}
+
+.pointer-div {
+
+	border: 1px solid #d4d4d4;
+
+    padding: 20px;
+
+    position: relative;
+
+    width: 100px;
+
+    height: 100px;
+
+    display: inline-block;
+
+    float: left;
+
+    margin: 5px;
+
+}
+
+.pointer-div input[type="checkbox"]{
+
+	position: absolute;
+
+    top: 10px;
+
+    right: 10px;
+
+}
+
+.pointer-div img {
+
+	width: 50px;
+
+    height: auto;
+
+    position: absolute;
+
+    top: 50%;
+
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+
+}
+
+.search-store label {
+
+	width: 100%;
+
+    display: block;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    margin-bottom: 10px;
+
+}
+
+.search-store-table {
+
+    width: 80%;
+
+    border: 1px solid #dadada;
+
+    text-align: left;
+
+    border-collapse: collapse;
+
+    background: #fff;
+
+    margin-top: 20px;
+
+}
+
+.sample-file {
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+    margin-bottom: 20px;
+
+    display: inline-block;
+
+}
+
+.sample-file span {
+
+	color: red;
+
+}
+
+
+
+fieldset .err_message{
+
+    color: #f32525;
+
+}
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

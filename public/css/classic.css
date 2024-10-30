@@ -1,0 +1,1403 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen:300,400,700');
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+
+@font-face {
+
+    font-family: lucida;
+
+    src: url('../fonts/lucida_granderegular.ttf');
+
+}
+
+ *{
+
+     margin: 0;
+
+     padding: 0;
+
+ }
+
+ body{
+
+     box-sizing: border-box;
+
+     font-family: 'Oxygen', sans-serif;
+
+ }
+
+ .mapholder{
+
+        -webkit-box-shadow: 1px 2px 20px -1px rgba(204,205,209,1);
+
+        -moz-box-shadow: 1px 2px 20px -1px rgba(204,205,209,1);
+
+        box-shadow: 1px 2px 20px -1px rgba(204,205,209,1);
+
+        width: 100%;
+
+        margin: auto;
+
+    }
+
+    .mapholder #directions{
+
+        height: auto !important;
+
+    }
+
+    .mapholder .pinimg{
+
+        max-width: 100%;
+
+        height: 100px;
+
+        float: left;
+
+        width: 26%;
+
+        margin-right: 4%;
+
+    
+
+    }
+
+    .mapholder .map_title{
+
+        color: rgb(97, 95, 95);
+
+        font-weight: 600;
+
+    }
+
+    .mapholder .aligner_map{
+
+        width: 100%;
+
+        display: inline-block;
+
+    }
+
+    .mapholder .content_aligner{
+
+        width: 70% !important;
+
+        float: left;
+
+        line-height: 18px;
+
+        font-size: 12px;
+
+        font-family: lucida;
+
+        color: #686868;
+
+    }
+
+    .mapholder .content_aligner .map_smallcnt_title{
+
+        font-size: 16px !important;
+
+    color: #000000 !important;
+
+    font-family: lucida;
+
+    margin: 0px 0px 5px;
+
+    }
+
+    .mapholder .content_aligner  .jsp_loc_marker_fields{
+
+        font-family: 'Oxygen Light', sans-serif;
+
+        font-size: 13px;
+
+    }
+
+    .mapholder .link_inline{
+
+        display: inline-block;
+
+        font-size: 12px;
+
+    }
+
+    .jsp_main{
+
+        padding: 10px 25px;
+
+    }
+
+    .jsp_head{
+
+        font-weight: 500;
+
+        font-family: 'Poppins', sans-serif;
+
+    }
+
+    .info_title {
+
+        font-size: 18px;
+
+        padding: 23px 0;
+
+        color: #000;
+
+        font-weight: 500;
+
+        font-family: 'Poppins', sans-serif;
+
+    }
+
+    .info_title2 {
+
+        font-size: 18px;
+
+        padding: 25px 0px 25px 0px;
+
+        color: #000;
+
+        font-weight: 500;
+
+        font-family: 'Poppins', sans-serif;
+
+    }
+
+    .full_left {
+
+        float: left;
+
+        margin: 0;
+
+    }
+
+    .fa.fa-home {
+
+        color: #0063b6 !important;
+
+        font-size: 30px;
+
+    }
+
+    .branch_videos img{
+
+        width: 100%;
+
+    }
+
+ .mapholder .findstore{
+
+    font-weight: 600;
+
+    display: inline-block;
+
+      width: 15%;
+
+    position: relative;
+
+    font-family: 'Oxygen Light', sans-serif;
+
+    font-size: 14px;
+
+    letter-spacing: 1px;
+
+    color: rgb(97, 95, 95);
+
+}
+
+.mapholder .searchform{     
+
+    display: inline-block;      
+
+    margin-left: 0px;       
+
+    width: 45%;     
+
+    font-size: 14px;        
+
+    border-radius: 4px;     
+
+    font-family: 'Oxygen Light', sans-serif;        
+
+    background: #FFFFFF;        
+
+    vertical-align: middle;     
+
+}
+
+.mapholder #zipsearch{
+
+    display: inline-block;
+
+    margin-left: 0px;
+
+    width: 95%;
+
+    font-size: 14px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 4px;
+
+    font-family: 'Oxygen Light', sans-serif;
+
+    background: #FFFFFF;
+
+    vertical-align: middle;
+
+}
+.mapholder #map_type{
+    width: 20%;
+    display: inline-block;
+    height: 30px;
+    border-radius: 3px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    vertical-align: middle;
+}
+
+.mapholder .locationfinder{     
+
+    margin: 0px;        
+
+        }       
+
+.mapholder .info_one .address p {       
+
+    padding: 5px;
+
+font-family: lucida;
+
+display: inline-block;
+
+margin: 0px 0px;
+
+word-break: break-all;     
+
+}       
+
+.mapholder .info_one{       
+
+    border-bottom: 1px solid #d4d7d8;       
+
+    color: #000;        
+
+}       
+
+.mapholder .info_one p{     
+
+    margin-bottom: 10px;        
+
+}       
+
+.mapholder .branch_hrs {        
+
+    color: #000000;     
+
+    padding-top: 25px !important;       
+
+}
+
+.mapholder .locateme{
+
+    position: relative;
+
+    color: #686868;
+
+    font-family: 'Oxygen Light', sans-serif;
+
+    font-size: 12px;
+
+    vertical-align: middle;
+
+    letter-spacing: 0.5px;
+
+    display: inline-block;
+
+    font-weight: 700 !important;
+
+    text-decoration: underline;
+
+    text-align: right;
+
+       margin-left: 5%;
+       border-bottom: none;
+
+}
+.mapholder .head_holder {
+    padding: 30px 25px;
+}
+.mapholder .head_holder .locationsetter{
+
+    display: inline-block;
+
+
+
+}
+
+.mapholder .head_holder .locationsetter span i{
+
+    color: #aeaeae;
+
+font-weight: bold;
+
+font-size: 18px;
+
+vertical-align: middle;
+
+}
+
+.mapholder .locateme span{
+
+    display: inline-block;
+
+}
+
+
+
+.mapholder .jsp_locator{
+
+    width: 96%;
+
+    display: inline-block;
+
+    border-top: 2px solid #d4d7d8;
+
+    margin: 0% 2%;
+
+}
+
+.mapholder .jsp_locator_branch{
+
+    width: 100%;
+
+    display: inline-block;
+
+    border-top: 2px solid #d4d7d8;
+
+    margin: 0% auto;
+
+}
+
+.mapholder .jsp_locator_direction{
+
+    width: 100%;
+
+    display: inline-block;
+
+    padding: 2%;
+
+}
+
+.mapholder .location_list{
+
+    width: 40%;
+
+    float: left;
+
+    height: 550px;
+
+    overflow: auto;
+
+}
+
+.mapholder .location_list_branch{
+
+    width: 40%;
+
+    float: left;
+
+    height: 450px;
+
+    overflow: auto;
+
+   
+
+}
+
+.mapholder .jsp_locator_direction{      
+
+    width: 100%;        
+
+    display: inline-block;      
+
+    padding: 2%;        
+
+}
+
+.mapholder .locationbranch{     
+
+    margin: 0px;        
+
+}
+
+.mapholder .locationbranch .branch_finder{
+
+    padding: 20px 0px;
+
+    margin-right: 20px;
+
+}
+
+.mapholder .location_photos{
+
+    float: left;
+
+    width: 60%;
+
+    padding: 20px 0px;
+
+}
+
+.mapholder .info_two p{     
+
+    margin-bottom: 10px;        
+
+    color: #000;  
+
+    font-family: lucida;
+
+font-size: 13px;      
+
+}       
+
+.mapholder a{       
+
+    color: #0063b6; 
+    border-bottom: none;
+    box-shadow: none;             
+
+}  
+
+.mapholder .link p{
+
+    color: #0063b6;   
+
+}     
+
+.mapholder .link p a {      
+
+    color: #0063b6;     
+
+    text-decoration: underline;
+
+    font-family: lucida;
+
+    font-size: 13px;   
+
+    padding: 5px;  
+
+}
+
+.mapholder .location_photos img{
+
+    width: 650px; height: 444px;
+
+}
+
+.mapholder .location_map{
+
+    width: 60%;
+
+    float: left;
+
+}
+
+.mapholder .location_namer{
+
+    width: 100%;
+
+    
+
+}
+
+.mapholder .branch_number {
+
+    float: left;
+
+    padding-left: 10px;
+
+    width: 10%;
+
+}
+
+.mapholder .pointer{
+
+    background: url(../../images/pointertheme.png) no-repeat;
+
+    border-radius: 3px;
+
+    line-height: 27px;
+
+    color: #FFFFFF;
+
+    text-align: center;
+
+    width: 26px;
+
+}
+
+.mapholder .mapdata{
+
+    width: 50%;
+
+    float: left;
+
+    margin-left: 10%;
+
+}
+
+.mapholder .mapdata a{
+
+    text-decoration: none;
+
+    box-shadow: none;
+    border-bottom: none;
+}
+
+
+
+.mapholder .bottom_footer{
+
+    padding: 10px 0px 20px;
+
+    text-align: right;
+
+    border-top: 2px solid #d4d7d8;
+
+    margin: 0px 0px 0px;
+
+}
+
+.mapholder .location_namer{
+
+    list-style-type: none;
+
+    overflow: hidden;
+
+    padding: 13px 0;
+
+    border-bottom: 1px solid #ccc;
+
+    font-family: 'Oxygen Light', sans-serif;
+
+    font-size: 13px;
+
+}
+
+.mapholder .location_namer:hover{
+
+    background: #F6F6F6;
+
+}
+
+.mapholder .branch_del_head{
+
+    color: #333 !important;
+
+}
+
+.mapholder .mapdata a p{
+
+    white-space: nowrap;
+
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+
+    width: 180px;
+
+    line-height: 13px;
+
+    font-family: lucida;
+
+    font-size: 12px !important;
+
+    display: inline-block;
+
+    margin: 0;
+
+    font-weight: 600;
+
+    color: #686868;
+
+}
+
+.mapholder .mapdata a{
+
+    color: #0070c9 !important;
+
+    background: none !important;
+
+    font-size: 12px !important;
+
+    font-weight: 700 !important;
+
+    list-style-type: none;
+
+    font-family: 'Oxygen Light', sans-serif;
+
+}
+
+.mapholder .show_to{
+
+    display: none;
+
+}
+
+
+
+.mapholder .from_location , .to_location{
+
+    float: left;
+
+list-style: none;
+
+width: 100px;
+
+font-size: 14px;
+
+color: #000;
+
+margin: 5px 10px;
+
+}
+
+.mapholder .from_location{
+
+    border-right: 1px solid;
+
+    text-align: left;
+
+}
+
+.mapholder .check_path {
+
+    overflow: hidden;
+
+    border-bottom: 1px solid #cdcdcd;
+
+    margin-bottom: -1px;
+
+    margin-right: 20px;
+
+    padding-left: 5px;
+
+}
+
+.mapholder .to_add {
+
+    margin-left: 25px;
+
+}
+
+.mapholder .form-control {
+
+    height: 30px !important;
+
+}
+
+.mapholder .address_search {
+
+    width: 85% !important;
+
+    margin: 5px 0px !important;
+
+    background-image: #fff !important;
+
+    background-color: #fff !important;
+
+}
+
+.mapholder .jsp_tab_get_direction {
+
+    background-color: #fff !important;
+
+    border: none !important;
+
+    color: #0063b6;
+
+    text-align: left;
+
+    font-weight: 600;
+
+    text-decoration: underline;
+
+    outline: none;
+
+    font-family: poppins;
+
+font-size: 13px;
+
+letter-spacing: 0px;
+
+}
+
+.mapholder .check_path .walk_path {
+
+    display: inline-block;
+
+}
+
+.mapholder .check_path .walk_path p{
+
+    display: inline-block !important;
+
+    margin: 0px;
+
+    font-size: 13px;
+
+}
+
+.mapholder .check_path .highway_path p{
+
+    display: inline-block !important;
+
+    margin: 0px;
+
+    font-size: 13px;
+
+}
+
+.mapholder .getdir_add {
+
+    margin-left: 1px;
+
+    margin-top: 10px;
+
+    color: #007acc;
+
+}
+
+.mapholder .getdir_add i{
+
+    font-size: 16px;
+
+} 
+
+.mapholder .highway_path {
+
+    display: inline-block;
+
+    line-height: 25px;
+
+    margin: 0 10px;
+
+}
+
+.mapholder .getdirect{
+
+    border: none;
+
+    background: none;
+
+}
+
+.mapholder .active_direction{
+
+    font-weight: 600;
+
+    color: #0063b6;
+
+}
+
+
+
+.mapholder .bottom_footer a{
+
+    text-decoration: none;
+
+    color: #686868;
+
+    font-family: 'Oxygen Light', sans-serif;
+
+    font-size: 13px;
+
+    vertical-align: middle;
+
+    height: auto;
+    border-bottom: none;
+
+}
+
+.mapholder .jsp_info_titlewrap {
+
+    padding: 20px 0;
+
+    overflow: hidden;
+
+}
+
+.mapholder .info_wrap {
+
+    color: #aeaeae;
+
+    padding: 19px 0;
+
+    border-top: 2px solid #d4d7d8;
+
+}
+
+.mapholder .list_title {
+
+    float: left;
+
+    width: 40%;
+
+    position: relative;
+
+    top: 5px;
+
+    font-size: 18px;
+
+}
+
+.mapdata .list_info {
+
+    padding-bottom: 20px;
+
+    padding-left: 10px;
+
+}
+
+.mapholder .list_info p {
+
+    padding-bottom: 10px;
+
+    display: inline-block !important;
+
+    font-family: lucida;
+
+    font-size: 18px !important;
+
+}
+
+.mapholder .list_info_title {
+
+    color: #000000;
+
+}
+
+.mapholder .info_wrap1 .list_left .row .col-md-3 {
+
+    font-weight: 500;
+
+    font-size: 13px;
+
+    padding-left: 25px;
+
+    line-height: 1.42857143;
+
+    font-family: lucida;
+
+    padding-bottom: 10px;
+
+}
+
+.mapholder .info_body .list_left .list_info .row .col-md-3 a:link {
+
+    font-weight: 500;
+
+    font-size: 13px;
+
+    line-height: 1.42857143;
+
+    font-family: lucida;
+
+}
+
+.mapholder .jsp_info_titlewrap {
+
+    padding: 20px 0;
+
+    overflow: hidden;
+
+}
+
+.mapholder .info_wrap {
+
+    color: #aeaeae;
+
+    padding: 19px 0;
+
+    border-top: 2px solid #d4d7d8;
+
+}
+
+.mapholder .list_title {
+
+    float: left;
+
+    width: 40%;
+
+    position: relative;
+
+    top: 5px;
+
+    font-size: 18px;
+
+}
+
+.mapdata .list_info {
+
+    padding-bottom: 20px;
+
+    padding-left: 10px;
+
+}
+
+.mapholder .list_info p {
+
+    margin-bottom: 2px;
+
+display: inline-block !important;
+
+    font-family: lucida;
+
+font-size: 18px !important;
+
+}
+
+.mapholder .list_info_title {
+
+    color: #000000;
+
+}
+
+.mapholder .info_wrap1 .list_left .row .col-md-3 {
+
+    font-weight: 500;
+
+    font-size: 13px;
+
+    padding-left: 25px;
+
+    line-height: 1.42857143;
+
+    font-family: lucida;
+
+    padding-bottom: 20px;
+
+}
+
+.mapholder .info_body .list_left .list_info .row .col-md-3 a:link {
+
+    font-weight: 500;
+
+font-size: 13px;
+
+    line-height: 1.42857143;
+
+    font-family: lucida;
+
+}
+
+.mapholder .bottom_footer img{
+
+    vertical-align: middle;
+
+}
+
+.mapholder .full_branch_list {
+
+    padding: 10px 10px 25px;
+
+    text-align: right;
+
+    border-top: 2px solid #d4d7d8;
+
+    font-family: 'Oxygen Light', sans-serif;
+
+    font-size: 13px;
+
+    margin: 0px 0px;
+
+}
+
+.mapholder .full_branch_list a{
+
+    text-decoration: underline;
+    border: none;
+
+}
+
+.mapholder .adp-directions tr td{
+
+    font-size:12px;
+
+}
+
+.mapholder .country select {
+
+    background: none repeat scroll 0 0 transparent;
+
+    border: medium none;
+
+    outline: medium none;
+
+    -webkit-appearance: none;
+
+    -moz-appearance: none;
+
+    -ms-appearance: none;
+
+    padding: 0px 50px;
+
+    border: 1px solid #686868;
+
+    padding-left: 10px;
+
+    width: 240px;
+
+    color: #aeaeae;
+
+    border-radius: 2px;
+
+    height: 32px;
+
+    font-weight: 600;
+
+    margin-left: 4px;
+
+}
+
+.mapholder .country {
+
+    background: url(http://demo.joomlaserviceprovider.com/components/com_jsplocation/images/select.jpg) no-repeat right;
+
+    float: right;
+
+    position: relative;
+
+    right: 0px;
+
+}
+
+.mapholder .afterli {
+
+    background: #b9b9b9;
+
+    content: "";
+
+    height: 15px;
+
+    float: left;
+
+    margin-top: 2px;
+
+    width: 1px;
+
+    color: #b9b9b9;
+
+    margin-right: 10px;
+
+}
+
+.mapholder .mydirect{
+
+    list-style: none;
+
+    text-decoration: none;
+
+}
+
+.mapholder #toLink , .mapholder #fromLink{
+
+    color: #0063b6;
+
+}
+
+.mapholder .selected{
+
+    color: #0063b6 !important;
+
+    font-weight: bold;
+
+}
+
+
+
+.mapholder .country select {
+
+    background: none repeat scroll 0 0 transparent;
+
+    border: medium none;
+
+    outline: medium none;
+
+    -webkit-appearance: none;
+
+    -moz-appearance: none;
+
+    -ms-appearance: none;
+
+    padding: 0px 50px;
+
+    border: 1px solid #686868;
+
+    padding-left: 10px;
+
+    width: 240px;
+
+    color: #aeaeae;
+
+    border-radius: 2px;
+
+    height: 32px;
+
+    font-weight: 600;
+
+    margin-left: 4px;
+
+    }
+
+    .mapholder .start_add {
+
+
+
+        display: block;
+
+        margin-top: 2px;
+
+        font-family: 'lucida_granderegular', sans-serif !important;
+
+        font-size: 13px !important;
+
+    
+
+    }
+
+.mapholder .country {
+
+    background: url(http://demo.joomlaserviceprovider.com/components/com_jsplocation/images/select.jpg) no-repeat right;
+
+        float: right;
+
+        position: relative;
+
+        right: 0px;
+
+    }   
+
+.mapholder .mCS-minimal-dark.mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar, .mCS-minimal-dark.mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar {
+
+    background-color: rgba(0,0,0,0.2);
+
+}
+
+
+
+.mapholder .mydirect{
+
+    width: 100%;
+
+display: inline-block;
+
+list-style: none;
+
+}
+
+.mapholder .mydirect li{
+
+    width: 30%;
+
+float: left;
+
+    font-size: 14px;
+
+}
+
+.mapholder .tabs ul{
+
+    margin: 10px auto 0px;
+
+}
+
+.mapholder .jsp_tab_get_direction{
+
+    color: #0063b6;
+
+text-align: left;
+
+background: #FFF;
+
+padding: 10px 0px 15px;
+
+text-transform: none;
+
+}
+
+.mapholder .jsp_tab_get_direction:hover{
+
+    color: #000;
+
+text-align: left;
+
+}
+
+.mapholder #srch_close{
+        display: inline-block;
+    height: 16px;
+    width: 16px;
+    margin-left: -6%;
+    border: none;
+    vertical-align: middle;
+}
+
+@media only screen and (max-width: 1024px) {
+
+    .mapholder {
+
+        width: 100%;
+
+    }
+
+    .mapholder .jsp_locator {
+
+        width: 100%;
+
+        display: inline-block;
+
+        border-top: 2px solid #d4d7d8;
+
+        margin: 0;
+
+    }
+
+}
+
+@media only screen and (max-width: 500px) {
+
+    .mapholder .findstore{
+
+        width: 100%;
+        text-align: center;
+
+    }
+    #srch_close{
+        display: none;
+    }
+    .mapholder .searchform {
+
+        display: inline-block;
+        margin-left: 0px;
+        width: 100%;
+        font-size: 14px;
+        border-radius: 4px;
+        font-family: 'Oxygen Light', sans-serif;
+        background: #FFFFFF;
+        vertical-align: middle;
+    
+    }
+    .mapholder #map_type {
+
+        width: 100%;
+        display: inline-block;
+        height: 30px;
+        border-radius: 3px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        vertical-align: middle;
+        margin-top: 10px;
+    
+    }
+    .mapholder .locateme{
+        border-bottom: none;
+    }
+    .mapholder .list_title {
+        margin-bottom: 20px;
+        float: left;
+        width: 100%;
+    }
+    .mapholder #zipsearch{
+        width: 95%;
+        font-size: 10px;
+
+    }
+    .mapholder .mapdata a {
+
+        text-decoration: none;
+        box-shadow: none;
+        border-bottom: none;
+    
+    }
+    .mapholder #map_type {
+        width: 95%;
+        margin-bottom: 10px;
+    }
+
+    .mapholder .jsp_locator {
+
+        width: 100%;
+
+    }
+    .mapholder .head_holder {
+        padding: 25px 15px;
+    }
+    .mapholder .location_photos img {
+    
+        width: 100%;
+        height: auto;
+    
+    }
+    .mapholder .list_title {
+    
+        float: left;
+        width: 100%;
+    }
+    .mapholder .aligner_map {
+
+        width: 100%;
+        display: inline-block;
+    
+    }
+    .mapholder .pinimg {
+    
+        max-width: 100%;
+        height: 100px;
+        float: left;
+        width: 100%;
+        margin: 5px 0px;
+    
+    }
+    .mapholder .content_aligner {
+
+        width: 100%;
+        float: left;
+        line-height: 18px;
+        font-size: 12px;
+        font-family: lucida;
+        color: #686868;
+    
+    }
+    .mapholder .location_list_branch {
+
+        width: 100%;
+        float: left;
+        height: 450px;
+    
+    }
+    .mapholder .location_photos {
+
+        float: left;
+        width: 100%;
+        padding: 20px 0px;
+    
+    }
+    .mapholder .location_map {
+
+        width: 100%;
+
+        float: left;
+
+    }
+
+    .mapholder .location_list {
+
+        width: 100%;
+
+    }
+
+}
+
